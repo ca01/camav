@@ -1,0 +1,663 @@
+body {
+	padding: 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+        font-size: 10px;
+	color : Black;
+	background : #d7e6ff;
+}
+
+a {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+color: #006699;
+}
+
+body.popupBody {
+        background : #ffffff;
+}
+
+body.editBody {
+	background : #a8b9d9;
+}
+
+div.tipbox {
+    padding: 5px;
+    position:absolute;
+    width:200px;
+    left:1;
+    right:1;
+    z-index:5;
+    visibility: hidden;
+    background-color: #0099CC;
+    layer-background-color: #0099CC;
+    border: 1px none #000000;
+}
+
+iframe.tipbox {
+    position:absolute;
+    visibility:hidden;
+}
+
+table.dataTable {
+	padding: 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	background-color: #e8f2ed;
+	text-align: center;
+	font-size: 9px;
+	vertical-align: middle;
+	border: 1px solid #006699;
+	border-collapse: collapse;
+}
+
+table.dataTable td {
+    border: 1px solid #006699;
+    padding: 1px 1px 1px 1px;
+}
+
+table.dataTable tbody td.italicData {
+    font-style : italic;
+}
+
+table.dataTable td.noData {
+	background-color: transparent;
+	border: 1px solid #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #006699;
+}
+
+table.dataTable td.fat_border_right {
+	border-right : 2px solid #006699;
+}
+
+table.dataTable tbody tr {
+	height: 25px;
+}
+
+table.dataTable tbody tr.italicData {
+    font-style : italic;
+}
+
+table.dataTable thead tr {
+	height: 20px;
+}
+
+table.dataTable tfoot tr {
+	height: 25px;
+}
+
+table.dataTable tbody td.idData {
+	background-color: #D7e6ff;
+}
+
+table.dataTable thead {
+	background-color: #cae1e6;
+}
+
+table.dataTable tfoot {
+	background-color: #cae1e6;
+}
+
+table.dataTable a {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 9px;
+font-weight: normal;
+color: #006699;
+}
+
+table.dataTable a:hover	{
+	color: #000066;
+	}
+
+/* TABS LEVEL 1 */
+table.tabs_level_1 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_1 td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_1 td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-top: #000065 1px solid;
+	border-left: #000065 1px solid;
+	background : #e8f2ed;
+	color: #006699;
+
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: none;
+
+	height: 100%;
+}
+
+table.tabs_level_1 td div.selected {
+	border-right: #ffffff 5px solid;
+	border-top: #ffffff 5px solid;
+	border-left: #ffffff 5px solid;
+
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 13px;
+	background: #336699;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+table.tabs_level_1 td div a {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/* TABS LEVEL 1 SMALL */
+table.tabs_level_1_small {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_1_small td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_1_small td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	border-top: #000065 1px solid;
+	border-left: #000065 1px solid;
+	background : #e8f2ed;
+	color: #006699;
+
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: none;
+
+	height: 100%;
+}
+
+table.tabs_level_1_small td div.selected {
+	border-right: #ffffff 3px solid;
+	border-top: #ffffff 3px solid;
+	border-left: #ffffff 3px solid;
+
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 10px;
+	background: #336699;
+	color: #ffffff;
+}
+
+table.tabs_level_1_small td div a {
+	text-decoration: none;
+	font-size: 10px;
+}
+
+/* TABS LEVEL 2 */
+table.tabs_level_2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_2 td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_2 td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-top: #000065 1px solid;
+	border-left: #000065 1px solid;
+	background : #ffffff;
+
+	font-family: Verdana;
+	font-weight: normal;
+
+	height: 100%;
+}
+
+table.tabs_level_2 td div.selected {
+
+	border-right: #e8f2ed 5px solid;
+	border-top: #e8f2ed 5px solid;
+	border-left: #e8f2ed 5px solid;
+
+	font-weight: bold;
+	font-size: 12px;
+	background: #336699;
+	color: #ffffff;
+}
+
+table.tabs_level_2 td div a {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #006699;
+	text-decoration: none;
+}
+
+/* TABS LEVEL 2 SMALL */
+table.tabs_level_2_small {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_2_small td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_2_small td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	border-top: #000065 1px solid;
+	border-left: #000065 1px solid;
+	background : #ffffff;
+
+	font-family: Verdana;
+	font-weight: normal;
+
+	height: 100%;
+}
+
+table.tabs_level_2_small td div.selected {
+
+	border-right: #e8f2ed 5px solid;
+	border-top: #e8f2ed 5px solid;
+	border-left: #e8f2ed 5px solid;
+
+	font-weight: bold;
+	font-size: 10px;
+	background: #336699;
+	color: #ffffff;
+}
+
+table.tabs_level_2_small td div a {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #006699;
+	text-decoration: none;
+}
+
+/* TABS LEVEL 3 */
+table.tabs_level_3 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_3 td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_3 td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-top: #336699 1px solid;
+	border-left: #336699 1px solid;
+	background : #F4F9FF;
+	color: #336699;
+
+	font-family: Verdana;
+	font-weight: normal;
+
+	height: 100%;
+}
+
+table.tabs_level_3 td div.selected {
+	border-right: #FFFFFF 5px solid;
+	border-top: #FFFFFF 5px solid;
+	border-left: #FFFFFF 5px solid;
+
+	font-weight: bold;
+	font-size: 11px;
+	background: #336699;
+	color: #ffffff;
+}
+
+table.tabs_level_3 td div a {
+	text-decoration: none;
+	font-size: 11px;
+}
+
+/* TABS LEVEL 3 */
+table.tabs_level_4 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+table.tabs_level_4 td {
+	height: 100%;
+	text-transform: uppercase;
+}
+
+table.tabs_level_4 td div {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-top: #000065 1px solid;
+	border-left: #000065 1px solid;
+	background : #ffffff;
+    color : #000065
+
+	font-family: Verdana;
+	font-weight: normal;
+
+	height: 100%;
+}
+
+table.tabs_level_4 td div.selected {
+	border-right: #e8f2ed 5px solid;
+	border-top: #e8f2ed 5px solid;
+	border-left: #e8f2ed 5px solid;
+
+	font-weight: bold;
+	font-size: 11px;
+	background: #336699;
+	color: #ffffff;
+}
+
+table.tabs_level_4 td div a {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #006699;
+	text-decoration: none;
+}
+
+
+/* colors */
+
+.sp2-green {
+	background-color: #e8f2ed;
+}
+
+.sp2-white {
+	background-color: #ffffff
+}
+
+/* colors time management */
+
+.sp2-tim-annual-leave {
+	background-color: #ffcc33;
+	color: #3d598b;
+    text-align: center;
+}
+
+.sp2-tim-annual-leave-draft {
+	background-color: #ffcc33;
+	color: #3d598b;
+	text-align: center;
+}
+
+.sp2-tim-travelling {
+	background-color: #ffff99;
+	color: #3d598b;
+    text-align: center;
+}
+
+.sp2-tim-travelling-draft {
+	background-color: #ffff99;
+	color: #3d598b;
+	text-align: center;
+}
+
+.sp2-tim-flexitime-recup {
+	background-color: #46A1B4;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-other-leave {
+	background-color: #ff9900;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-other-leave-draft {
+	background-color: #ff9900;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-special-leave {
+	background-color: #e0dec3;
+	color: 5c5c5c;
+    text-align: center;
+}
+
+.sp2-tim-special-leave-draft {
+	background-color: #e0dec3;
+	color: 5c5c5c;
+    text-align: center;
+}
+
+.sp2-tim-recuperation {
+	background-color: #47a1b4;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-recuperation-draft {
+	background-color: #47a1b4;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-absence {
+	background-color: #ffd0f0;
+	color: #ec0082;
+    text-align: center;
+}
+
+.sp2-tim-absence-draft {
+	background-color: #ffd0f0;
+	color: #ec0082;
+    text-align: center;
+}
+
+.sp2-tim-formation {
+	background-color: #79bcff;
+	color: #ff7d66;
+    text-align: center;
+}
+
+.sp2-tim-formation-draft {
+	background-color: #79bcff;
+	color: #ff7d66;
+    text-align: center;
+}
+
+.sp2-tim-mission {
+	background-color: #ccccff;
+	color: #4c4194;
+    text-align: center;
+}
+
+.sp2-tim-mission-draft {
+	background-color: #ccccff;
+	color: #4c4194;
+    text-align: center;
+}
+
+.sp2-tim-theoretical-presence {
+	background-color: #A8C9F7;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-presence {
+	background-color: #FBE499;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-theoretical-presence-draft {
+	background-color: #a8c9f7;
+	color: #ffffff;
+    text-align: center;
+}
+
+.sp2-tim-absence-draft {
+	background-color: #cdcdcd;
+	color: #000000;
+    text-align: center;
+}
+
+.sp2-tim-credit-time {
+	background-color: #daec93;
+	color: #00aeb0;
+    text-align: center;
+}
+
+.sp2-tim-credit-time-draft {
+	background-color: #ffcc33;
+	color: #00aeb0;
+    text-align: center;
+}
+
+.sp2-tim-weekend {
+	background-color: #999999;
+}
+
+.sp2-tim-holiday {
+	background-color: #CCCCCC;
+}
+
+.sp2-tim-unknown {
+	background-color: red;
+}
+
+.sp2-tim-invalid {
+	background-color: black;
+}
+
+.sp2-tim-core-time {
+    background-color: #336699;
+}
+
+/* div layout styles */
+div {
+	width: 100%; /* very important! */
+}
+
+/* deprecated: use box */
+div.group {
+	margin: 10px;
+}
+
+div.group-line {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+div.box {
+	margin: 10px;
+}
+
+div.white-box {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #ffffff
+}
+
+div.green-box {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #e8f2ed;
+}
+
+div.level_1 {
+	margin-left: 0px;
+}
+
+div.level_2 {
+	margin-left: 20px;
+}
+
+div.level_3 {
+	margin-left: 40px;
+}
+
+div.level_4 {
+	margin-left: 60px;
+}
+
+/* CCS fix for floating/clearing problem */
+/* see http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* THE NEXT PART IS ESSENTIAL !!! don't touch! */
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

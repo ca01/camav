@@ -1,0 +1,41 @@
+     
+    #divinputfile{
+     
+     background:url(upload_file.gif) no-repeat 100% 1px;
+     
+     height:28px;
+     
+     width:385px;
+     
+     margin:0px;
+     
+    }#divinputfile #filepc{
+     
+     opacity: 0.0;
+     
+     -moz-opacity: 0.0;
+     
+     filter: alpha(opacity=00);
+     
+     font-size:18px;
+     
+    }
+     
+    #fakeinputfile{
+     
+     margin-top:-28px;
+     
+    }
+     
+    #fakeinputfile #fakefilepc{
+     
+     width:265px;
+     
+     height:22px;
+     
+     font-size:18px;
+     
+     font-family:Arial;
+     
+    }
+
